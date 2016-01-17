@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/whiteColor"
+              tools:context="com.present.registration.TallWeightActivity"
+        >
+
+    <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="wrap_content"
+            android:text="@string/backButton"
+            android:background="@color/lightBlueColor"
+            android:textColor="@color/darkGreyColor"
+            android:textSize="@dimen/text720_1280"
+            android:id="@+id/backButton"
+            android:gravity="left|bottom"
+            android:enabled="true"
+            android:layout_gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"/>
+
+    <RelativeLayout
+            android:layout_width="507dp"
+            android:layout_height="300dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/relativeLayout">
+
+        <NumberPicker
+                android:background="@color/darkBlueColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/weightPicker"
+                android:orientation="vertical"
+                android:type="radial"
+                android:layout_marginLeft="70dp"
+                android:backgroundTint="#000000"
+                android:solidColor="#ffffff"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+        <NumberPicker
+                android:background="@color/darkBlueColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tallPicker"
+                android:type="radial"
+                android:orientation="vertical"
+                android:layout_marginRight="70dp"
+                android:backgroundTint="#000000"
+                android:solidColor="#ffffff"
+                android:layout_alignTop="@+id/weightPicker"
+                android:layout_alignParentRight="true"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Tall"
+                android:id="@+id/textView2"
+                android:textSize="@dimen/smallText720_1280"
+                android:textColor="@color/darkGreyColor"
+                android:layout_above="@+id/tallPicker"
+                android:layout_alignLeft="@+id/tallPicker"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Weight"
+                android:textSize="@dimen/smallText720_1280"
+                android:textColor="@color/darkGreyColor"
+                android:id="@+id/textView"
+                android:layout_above="@id/weightPicker"
+                android:layout_alignLeft="@+id/weightPicker"/>
+    </RelativeLayout>
+
+    <Button
+            android:layout_width="@dimen/buttonWidth"
+            android:layout_height="wrap_content"
+            android:text="@string/ContinueButton"
+            android:id="@+id/continueButton"
+            android:background="@color/lightBlueColor"
+            android:textColor="@color/darkGreyColor"
+            android:textSize="@dimen/text720_1280"
+            android:layout_gravity="right"
+            android:enabled="true"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

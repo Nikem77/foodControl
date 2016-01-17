@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">myapp</string>
+    <string name="name_title">Enter your name</string>
+    <string name="InitialScreenName">Name</string>
+    <string name="InitialScreenSurname">Surname</string>
+    <string name="ContinueButton">Next</string>
+    <string name="Tall">Tall</string>
+    <string name="Weight">Weight</string>
+    <string name="EnterName">Enter your name</string>
+    <string name="userDataTitle">Enter your weight and height</string>
+    <string name="birthDate">Birth date</string>
+    <string name="backButton">Back</string>
+    <string name="registration">Registration</string>
+    <string name="waist_girth">Waist girth</string>
+    <string name="chest_girth">Chest girth</string>
+    <string name="hips_girth">Hips girth</string>
+    <string name="рифма">Хуифма</string>
+</resources>

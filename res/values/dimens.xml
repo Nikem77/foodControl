@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="buttonWidth">138dp</dimen>
+    <dimen name="text720_1280">50sp</dimen>
+    <dimen name="smallText720_1280">40sp</dimen>
+    <dimen name="text_land_720_1280">40sp</dimen>
+    <dimen name="margin_land_720_1280">55dp</dimen>
+    <dimen name="margin_720_1280">90dp</dimen>
+</resources>

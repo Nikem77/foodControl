@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name = "yellowColor">#FFFF00</color>
+    <color name = "whiteColor">#FFFFFF</color>
+    <color name = "greenColor">#FF00FF00</color>
+    <color name = "mediumGrayColor">#666666</color>
+    <color name = "lightGrayColor">#EEEEEEEE</color>
+    <color name = "lightGreenColor">#66FF66</color>
+    <color name = "lightBlueColor">#6666FF</color>
+    <color name = "darkBlueColor">#111199</color>
+    <color name = "darkGreyColor">#444444</color>
+</resources>

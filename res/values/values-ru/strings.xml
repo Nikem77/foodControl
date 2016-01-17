@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_title">Введите имя</string>
+    <string name="InitialScreenName">Имя</string>
+    <string name="InitialScreenSurname">Фамилия</string>
+    <string name="ContinueButton">Продолжить</string>
+    <string name="Tall">Рост</string>
+    <string name="Weight">Вес</string>
+    <string name="EnterName">Введите имя</string>
+    <string name="userDataTitle">Укажите ваш рост и вес</string>
+    <string name="birthDate">Дата рождения</string>
+    <string name="registration">Регистрация</string>
+    <string name="hips_girth">Обхват бёдер</string>
+    <string name="chest_girth">Обхват груди</string>
+    <string name="backButton">Назад</string>
+</resources>

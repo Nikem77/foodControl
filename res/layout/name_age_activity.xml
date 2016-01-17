@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/whiteColor"
+              tools:context = "com.present.registration.NameAgeActivity"
+>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/EnterName"
+            android:textColor="@color/mediumGrayColor"
+            android:textSize="@dimen/text720_1280"
+            android:id="@+id/textView3"
+            android:enabled="false"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/InitialScreenName"
+            android:id="@+id/editTextName"
+            android:textSize="@dimen/text720_1280"
+            android:textColor="@color/mediumGrayColor"
+            android:background="@color/lightGrayColor"
+            android:layout_below="@+id/textView3"
+            android:layout_marginTop="@dimen/margin_720_1280"
+            android:inputType="textPersonName"
+    />
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextBirthDate"
+            android:hint="@string/birthDate"
+            android:textSize="@dimen/text720_1280"
+            android:textColor="@color/mediumGrayColor"
+            android:background="@color/lightGrayColor"
+            android:layout_below="@id/editTextName"
+            android:layout_marginTop="@dimen/margin_720_1280"
+            android:clickable="true"
+            android:onClick="dateFieldClick"
+            android:focusable="true"
+
+            android:inputType="date"
+            android:enabled="true"
+            android:focusableInTouchMode="true"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ContinueButton"
+            android:textSize="50sp"
+            android:background="@color/lightBlueColor"
+            android:textColor="@color/darkGreyColor"
+            android:id="@+id/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+    />
+</RelativeLayout>
+
